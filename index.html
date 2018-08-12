@@ -27,7 +27,11 @@
           */
           var currentContent = document.getElementById("generator").innerHTML;
 
-          var prophecy = ["Enter the realm of dangers untold<br>The magic of gods and lore of the old", "Master the skill of seeing the unknown<br>Become the Shadow and move forward alone", "When the time is right<br>confront the night"];
+          var prophecy = [p0, p1, p2];
+          var p0 = "Enter the realm of dangers untold<br>The magic of gods and lore of the old";
+          var p1 = "Master the skill of seeing the unknown<br>Become the Shadow and move forward alone";
+          var p2 = "When the time is right<br>confront the night";
+          
           if (currentContent == prophecy[0]) { 
             document.getElementById("generator").innerHTML = prophecy[1];
           } else if (currentContent == prophecy[1]) {
